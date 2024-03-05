@@ -1,5 +1,6 @@
 # HTML
- #HTML-Part A
+#HTML-Part A
+
 I have created a web page using HTML and CSS in which Tags included are:
 
  1.Anchor tag
