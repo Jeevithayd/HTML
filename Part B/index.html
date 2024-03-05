@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Column Layout</title>
+    <style>
+        *{
+            font-family:cursive;    
+            color:black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        header, button{
+            background-color: #7bf381;
+            padding: 1px;
+        }
+        button{
+            position:fixed;
+            top:10px;
+            right:10px;
+        }
+        nav {
+            background-color: #90d7f3;
+            padding: 0px;
+        }
+        .col{
+            background-color: #f0f0f0d5; /* Changed color */
+            padding: 20px;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        #imp{
+            font-weight:bold;
+            color: #db599a; /* Changed color */
+        }
+        a{
+            padding:219px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+    <p>
+        <h1>Exploring Innovation: Space Exploration, Renewable Energy, and Biotechnology</h1>
+        <button>Sign In</button>
+        <button>Sign Up</button>
+    </p>
+    </header>
+    <nav>
+        <p>
+        <a href="#">Space Exploration</a>
+        <a href="#">Renewable Energy</a>
+        <a href="#">Biotechnology</a>
+        </p>
+    </nav>
+    <p>Space exploration, renewable energy, and biotechnology represent forefronts of innovation, driving scientific advancements and addressing critical challenges.</p>
+    <div class="container">
+        <div class="col">
+            <h2>Space Exploration</h2>
+            <p><span id="imp">Missions: </span> Exploring distant planets, moons, and celestial bodies.Spacecraft, telescopes, and rovers for remote exploration.</p>
+
+        </div>
+        <div class="col">
+            <h2>Renewable Energy</h2>
+            <p><span id="imp">Sources: </span> Solar, wind, hydroelectric, and biomass energy.Solar panels, wind turbines, and hydroelectric dams.</p>
+        </div>
+        <div class="col">
+            <h2>Biotechnology</h2>
+            <p><span id="imp">Applications: </span> Genetic engineering, pharmaceuticals, and medical diagnostics.CRISPR gene editing, personalized medicine, and bioinformatics.</p>
+        </div>
+    </div>
+</body>
+</html>
